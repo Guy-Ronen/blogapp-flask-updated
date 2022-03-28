@@ -1,0 +1,9 @@
+2022-03-18 13:17:34,758 - main - WARNING - User tried to see posts without being authenticated!
+2022-03-18 13:19:09,645 - main - WARNING - User tried to see posts without being authenticated!
+2022-03-18 13:20:19,736 - main - WARNING - User tried to see posts without being authenticated!
+2022-03-21 12:32:34,568 - main - WARNING - User tried to see landing page while logged in
+2022-03-21 12:33:22,621 - main - WARNING - User tried to see landing page while logged in
+2022-03-28 11:43:10,519 - main - WARNING - User tried to see posts without being authenticated!
+2022-03-28 11:43:12,737 - main - WARNING - User tried to see posts without being authenticated!
+2022-03-28 11:43:27,435 - main - WARNING - User tried to see posts without being authenticated!
+2022-03-28 11:44:09,487 - main - WARNING - User tried to see posts without being authenticated!

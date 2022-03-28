@@ -1,0 +1,8 @@
+{% extends "layouts/layout.html" %}
+{% block content %}
+    {% for post in posts.items %}
+        {% include 'layouts/post_layout.html' %}
+    {% endfor %}
+  {% include "layouts/pagination_layout_main.html" %}
+{% endblock content %}
+

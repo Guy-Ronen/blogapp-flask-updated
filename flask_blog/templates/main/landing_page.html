@@ -1,0 +1,25 @@
+{% extends 'layouts/layout.html'%}
+{% block content %}
+<div class="container text-center">
+    <div class="row mt-4"></div>
+        <h1>Welcome to TooDoo</h1>
+            <h2><small>The first EVER online blogging site!</small></h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi autem, numquam quidem architecto laboriosam velit veritatis iusto pariatur error voluptatibus impedit ipsum distinctio tempore vel soluta magni ducimus, odit amet.</p>
+            <!-- <h4>Our Pricing models:</h4>
+            <div class="row mt-4">
+                <div class="media content-section col-4">
+                    hello
+                </div>
+                <div class="media content-section col-4">
+                    hello
+                </div>
+                <div class="media content-section col-4">
+                    hello
+                </div>
+            </div> -->
+            <a class="btn btn-info mb-4" href="{{ url_for('users.register') }}">Register Now!</a>
+            <a class="btn btn-outline-info mb-4" href="{{ url_for('users.login') }}">Login</a>
+    </div>
+</div>
+{%endblock%}
+  

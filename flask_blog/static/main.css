@@ -1,0 +1,164 @@
+body {
+  background: #edc7b7;
+  color: #123c69;
+  margin-top: 5rem;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #444444;
+}
+
+.container {
+  height: 100%;
+}
+.bg-steel {
+  background-color: #ac3b61;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #123c69;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #edc7b7;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  width: 100%;
+  background: #eee2dc;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.media-body h2 {
+  width: 100%;
+}
+a.article-title {
+  color: #444444;
+}
+
+article a.mr-2 {
+  color: #ac3b61;
+}
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+  max-width: 100%;
+}
+
+.article-content-small {
+  display: none;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 0.05px solid #333;
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+.navbar-brand {
+  color: #edc7b7 !important;
+}
+
+.btn.btn-secondary {
+  color: #123c69 !important;
+  border: 1px solid #edc7b7 !important;
+  background-color: #edc7b7 !important;
+}
+
+.btn.btn-danger,
+.btn.btn-info {
+  color: #fff !important;
+  border: 1px solid #ac3b61 !important;
+  background-color: #ac3b61 !important;
+}
+
+.btn.btn-outline-info {
+  color: #ac3b61 !important;
+  border: 1px solid #ac3b61 !important;
+}
+.btn.btn-outline-info.mb-4:hover {
+  background-color: #dddddd !important;
+}
+
+.btn.btn-outline-info:hover {
+  background-color: #edc7b7 !important;
+}
+
+.media-body {
+  margin: 0;
+  width: 100% !important;
+}
+
+.col.item.social > a {
+  background-color: #333;
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.item.social > a:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 510px) {
+  .article-title {
+    font-size: 1.4rem;
+  }
+  .article-img {
+    height: 32.5px;
+    width: 32.5px;
+    margin-right: 8px;
+  }
+}
