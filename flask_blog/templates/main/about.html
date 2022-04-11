@@ -2,6 +2,24 @@
 {% block content%}
 <div class="text-center">
 <h1>About Page</h1>
+<p>Our about page is about to blow your mind, Click here to see more:</p>
+<p id="toggle" style="display: none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel deserunt temporibus mollitia quaerat quia. Nam iusto facilis aspernatur iure illo doloremque deserunt nemo itaque, omnis animi incidunt magni esse ipsam.</p>
+<button id="toggle_btn" class='btn btn-info'type="button" onclick="myFunction()">Click to see!</button>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("toggle");
+  var y = document.getElementById("toggle_btn");
+
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.innerHTML = 'Click to hide!'
+  } else {
+    y.innerHTML = 'Click to see!'
+    x.style.display = "none";
+  }
+}
+</script>
 </div>
 {%endblock%}
   
